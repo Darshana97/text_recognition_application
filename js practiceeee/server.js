@@ -36,12 +36,12 @@ app.get("/api/user", (req, res, next) => {
     const details = [
         {
             id: 1,
-            name: '0ne',
+            email: 'test1@gmail.com',
             password: 'abc'
         },
         {
             id: 2,
-            name: 'two',
+            email: 'test2@gmail.com',
             password: '123'
         }
 
